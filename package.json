@@ -1,5 +1,5 @@
 {
-  "name": "ez-vuejs",
+  "name": "@tspringbo/ez-vue",
   "version": "0.1.0",
   "description": "Easy vue components",
   "main": "dist/ez-vue.js",
