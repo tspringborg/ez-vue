@@ -1,15 +1,22 @@
 {
-  "name": "ez-vue",
+  "name": "ez-vuejs",
   "version": "0.1.0",
   "description": "Easy vue components",
   "main": "dist/ez-vue.js",
-  "private": true,
+  "private": false,
   "author": "Thomas Springborg",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tspringborg/ez-vue"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name ez-vue src/App.vue",
