@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>ez-vue demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./ez-vue.umd.js"></script>
+<link rel="stylesheet" href="./ez-vue.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: ez-vue
+  }
+}).$mount('#app')
+</script>
